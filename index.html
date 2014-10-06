@@ -21,7 +21,7 @@
         <p></p>
         <!--<p class="view"><a href="https://github.com/chapter09/PersonalPage">View the Project on GitHub <small>chapter09/PersonalPage</small></a></p>-->
         <ul>
-          <li><a href="https://www.haow.ca/blog">My<strong>Blog</strong></a></li>
+          <li><a href="http://www.haow.ca/blog">My<strong>Blog</strong></a></li>
           <li><a href="https://github.com/chapter09">View On <strong>GitHub</strong></a></li>
           <li><a href="https://www.linkedin.com/pub/hao-wang/25/948/295">My<strong>LinkedIn</strong></a></li>
         </ul>
@@ -41,8 +41,12 @@
       </h3>
 
       <p>Master Student <br />
-      School of Software Engineering<br />
-      Shanghai Jiao Tong University</p>
+      School of Software Engineering <br />
+      Shanghai Jiao Tong University <br />
+      Advisors: <a href="http://www.cs.sjtu.edu.cn/~hbguan">Haibing GUAN</a> and <a href="https://www.cse.ust.hk/~kaichen/">Kai CHEN</a><br />
+      Address: 800 Dongchuan Road, Shanghai, China, 200240 <br />
+      Email: wh.sjtu AT gmail.com 
+      </p>
 
 
 
@@ -75,10 +79,13 @@ $ git checkout gh-pages
       </section>
     </div>
     <footer>
-      <p>Project maintained by <a href="https://github.com/chapter09">chapter09</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    <p style=""><a href="http://www.haow.ca">Hao WANG</a> &#169; Last updated: <span id="lastUpdate" /></p>
+      <!--<p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>-->
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script>
+      document.getElementById("lastUpdate").innerHTML = new Date(document.lastModified).toLocaleString();
+    </script>
     
   </body>
 </html>

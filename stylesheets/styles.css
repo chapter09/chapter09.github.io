@@ -285,7 +285,7 @@ hr {
 }
 
 footer {
-  width: 640px;
+  width: 900px;
   margin: 0 auto;
   padding: 20px 0 0;
   color: #ccc;
@@ -296,7 +296,7 @@ footer a {
   font-weight: bold;
 }
 footer p {
-  float: left;
+  float: right;
 }
 footer p + p {
   float: right;
