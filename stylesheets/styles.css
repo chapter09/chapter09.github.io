@@ -41,6 +41,10 @@ a {
   text-decoration: none;
 }
 
+pre a {
+  color: #B6B6AF;
+}
+
 p {
   margin: 0 0 20px;
   padding: 0;
@@ -246,6 +250,12 @@ pre {
   width: 100%;
   margin-left: -20px;
   margin-bottom: 20px;
+
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 pre code {
   color: #f8f8f2;
