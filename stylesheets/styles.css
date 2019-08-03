@@ -405,6 +405,13 @@ screen and (max-width:414px) {
 }
 
 @media print,
+screen and (max-width:440px) {
+	#foot-logo {
+		margin-top: 75px;
+	}
+}
+
+@media print,
 screen and (max-width:319px) {
 	#hw-sig {
 		width: 90px;
