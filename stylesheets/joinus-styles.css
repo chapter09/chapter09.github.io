@@ -399,9 +399,6 @@ screen and (max-width:414px) {
     	width: 100%;
     }
 
-    section p {
-    	/* float: left; */
-    }
 }
 
 @media print,
