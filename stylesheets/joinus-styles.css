@@ -400,7 +400,7 @@ screen and (max-width:414px) {
     }
 
     section p {
-    	float: left;
+    	/* float: left; */
     }
 }
 
