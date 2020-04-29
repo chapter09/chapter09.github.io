@@ -355,7 +355,7 @@ footer p + p {
 }
 
 @media print,
-screen and (max-width: 740px) {
+screen and (max-width: 1000px) {
     body {
         padding: 0
     }
