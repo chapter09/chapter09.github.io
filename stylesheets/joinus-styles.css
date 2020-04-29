@@ -109,7 +109,8 @@ header p.view small {
 }
 
 header img{
-	width: 280px;
+    width: 260px;
+    margin: 20px 0 20px 0;
 }
 
 header ul {
